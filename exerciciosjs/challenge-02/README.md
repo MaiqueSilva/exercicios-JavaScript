@@ -4,22 +4,17 @@ Nesse exercício, você está livre para escolher os nomes para suas variáveis 
 
 ```js
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
-function divisao(n1, n2) {
+function soma(n1, n2) {
 
-    var media = n1 + n2
-    return media
+    var argumentos = n1 + n2
+    return argumentos
 }
-var resultado1 = divisao(10, 2);
+var resultado1 = soma(10, 2);
 
 console.log(resultado1);
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-function divisao(n1, n2) {
 
-    var media = n1 + n2
-    return media
-}
-var resultado1 = divisao(10, 2);
 var receba = resultado1 + 5
 
 console.log(receba);
