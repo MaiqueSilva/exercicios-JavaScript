@@ -23,20 +23,28 @@ console.log(receba);
 17
 
 // Declare uma nova variável, sem valor.
-var Semvalor = ()
+var semvalor
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-?
+function NovoValor(){
+
+    semvalor = "Maique"
+    return "O valor da variável agora é " + semvalor
+}
+
+var Valor2 = NovoValor(2);
+
+console.log("O valor da variável agora é " + Valor2)
 
 // Invoque a função criada acima.
-?
+NovoValor()
 
 // Qual o retorno da função? (Use comentários de bloco).
-?
+// Não retornou nada, pois so sera declaro n1 fora da função
 
 /*
 Crie uma função com as seguintes características:
